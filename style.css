@@ -20,7 +20,7 @@ body {
  padding: 0%;
  margin-left: 0px;
  margin-right: 0px;
- background-color: lightgreen;
+ background-color: silver;
 }
 
 h1 {
@@ -30,7 +30,7 @@ h1 {
 
 .nav { 
 	width: 100%;
-	background-color: lightblue;
+	background-color: silver;
 	text-align: center;
 	margin-top: 10px;
 }
@@ -144,11 +144,13 @@ ol > li > ul > li:hover > a
 
 
 footer {
-	background-color: lightblue;
+	position: absolute;
+	height: 10%;
+	width: 100%;
+	background-color: silver;
 	text-align: center;
 	font-family: Verdana;
 	font-size: 20px;
-	padding: 20px;
 	margin: 0px;
 }
 
