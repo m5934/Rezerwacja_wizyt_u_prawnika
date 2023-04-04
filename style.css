@@ -142,6 +142,9 @@ ol > li > ul > li:hover > a
   text-align: center;
 }
 
+#harmonogram {
+	float: center;
+}
 
 footer {
 	position: absolute;
