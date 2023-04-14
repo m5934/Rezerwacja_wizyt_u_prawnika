@@ -148,6 +148,7 @@ ol > li > ul > li:hover > a
 
 footer {
 	position: absolute;
+	bottom: 0;
 	height: 10%;
 	width: 100%;
 	background-color: silver;
@@ -155,5 +156,6 @@ footer {
 	font-family: Verdana;
 	font-size: 20px;
 	margin: 0px;
+	margin-top: 0px;
 }
 
