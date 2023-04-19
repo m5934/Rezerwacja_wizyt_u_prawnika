@@ -1,3 +1,3 @@
 # System_rezerwacji
 
-Aplikacja internetowa będąca systemem rezerwacji.
+Aplikacja internetowa, która jest systemem rezerwacji.
