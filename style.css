@@ -147,7 +147,58 @@ ol > li > ul > li:hover > a
 	text-align: center;
 }
 
-footer {
+#ws {	/* Wskazówka powyżej formularza kontaktowego */
+	float:center;
+	text-align: center;
+}
+
+#kontakt {
+  margin: 0 auto;
+  width: 400px;
+  /* Ramka formularza */
+  padding: 1em;
+  border: 1px solid silver;
+  border-radius: 0.5em;
+  position: relative;
+}
+
+
+
+#kontakt label {
+  /* Rozmiar pola i jego wygląd */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+#kontakt textarea {
+  font: 1em sans-serif;
+
+  width: 300px;
+  box-sizing: border-box;
+
+  border: 1px solid #999;
+}
+
+#kontakt input:focus,
+textarea:focus {
+  border-color: silver;
+}
+
+#kontakt textarea {
+  vertical-align: top;
+  height: 10em;
+}
+
+#kontakt .button 
+  padding-left: 90px;
+}
+
+#kontakt button {
+  margin-left: 0.5em;
+}
+
+footer { /* Stopka rozjeżdza się. Do poprawy */ 
 	position: absolute;
 	bottom: 0;
 	height: 10%;
