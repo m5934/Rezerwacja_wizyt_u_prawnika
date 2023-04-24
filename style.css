@@ -190,12 +190,18 @@ textarea:focus {
   height: 10em;
 }
 
-#kontakt .button 
-  padding-left: 90px;
-}
-
 #kontakt button {
   margin-left: 0.5em;
+   margin-top: 5%;
+   background: silver;  
+ color: black; 
+ font-size: 13pt;  
+ display: inline-block;  
+ line-height: 1em;  
+ padding: 0.7em;  
+ margin: 0.5em;  
+ cursor: pointer;  
+ transition: all 0.3s;
 }
 
 footer { /* Stopka rozjeżdza się. Do poprawy */ 
