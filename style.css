@@ -14,6 +14,7 @@ body {
 }
 
 .tytuł {
+ float: left;
  width: 100%;
  margin: 0%;
  text-align: center;
@@ -25,6 +26,7 @@ body {
 
 h1 {
  text-align: center;
+ width: 100%;
  letter-spacing: 3px;
 color: white;
 }
