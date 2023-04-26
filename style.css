@@ -207,6 +207,10 @@ textarea:focus {
  transition: all 0.3s;
 }
 
+#zgoda {
+float: left;
+}
+
 footer { /* Stopka rozjeżdza się. Do poprawy */ 
 	position: absolute;
 	bottom: 0;
