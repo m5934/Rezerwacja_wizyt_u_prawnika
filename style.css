@@ -150,6 +150,22 @@ ol > li > ul > li:hover > a
 	text-align: center;
 }
 
+footer { /* Stopka rozjeżdza się. Do poprawy */ 
+	position: absolute;
+	bottom: 0;
+	height: 10%;
+	width: 100%;
+	background-color:  #155287;
+	text-align: center;
+	font-family: Verdana;
+	font-size: 20px;
+	margin: 0px;
+	margin-top: 0px;
+	color: white;
+}
+
+/* Style do strony kontaktowej */
+
 #tyt_kontakt {
 	float:center;
 	text-align: center;
