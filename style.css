@@ -178,8 +178,9 @@ margin: 0 auto auto 5%;
   position: relative;
 }
 
-#tyt_form{
+.tyt{
 text-align: center;
+font-weight: bold;
 }
 
 #kontakt {
@@ -242,10 +243,6 @@ position: relative;
 margin-left: 10%;
 margin-top: 10%;
 font-size: large;
-}
-
-#tyt_dane {
-text-align: center;
 }
 
 footer { /* Stopka rozjeżdza się. Do poprawy */ 
