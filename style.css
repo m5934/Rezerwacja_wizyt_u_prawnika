@@ -1,45 +1,44 @@
 body {
- font-family: Verdana;
- font-size: 15px;
- background-color: white;
- color: black;
- margin: 0 !important;
+	 font-family: Verdana;
+	 font-size: 15px;
+	 background-color: white;
+	 color: black;
+	 margin: 0 !important;
 }
 
 #container {
- width: 1000px;
- margin-left: auto;
- margin-right: auto;
- background-color: white;
+	 width: 1000px;
+	 margin-left: auto;
+	 margin-right: auto;
+	 background-color: white;
 }
 
 .tytuł {
- float: left;
- width: 100%;
- margin: 0%;
- text-align: center;
- padding: 0%;
- margin-left: 0px;
- margin-right: 0px;
- background-color: #155287;
+	 float: left;
+	 width: 100%;
+	 margin: 0%;
+	 text-align: center;
+	 padding: 0%;
+	 margin-left: 0px;
+	 margin-right: 0px;
+	 background-color: #155287;
 }
 
 h1 {
- text-align: center;
- width: 100%;
- letter-spacing: 3px;
-color: white;
+	 text-align: center;
+	 width: 100%;
+	 letter-spacing: 3px;
+	 color: white;
 }
 
 .nav { 
-	width: 100%;
-	background-color:  #155287;
-	text-align: center;
-	margin-top: 10px;
+	 width: 100%;
+	 background-color:  #155287;
+	 text-align: center;
+	 margin-top: 10px;
 }
 
-ol
-{
+ol {
 	padding: 0;
 	margin: 0;
 	list-style-type: none;
@@ -49,20 +48,17 @@ ol
 	display: inline-block;
 }
 
-ol a
-{
+ol a {
 	color: white;
 	text-decoration: none;
 	display: block;
 }
 
-ol > li:first-child
-{
+ol > li:first-child {
 	border-left: 1px dashed #751b1b;
 }
 
-ol > li
-{
+ol > li{
 	float: left;
 	width: 300px;
 	height: 40px;
@@ -72,20 +68,17 @@ ol > li
 	display: inline-block;
 }
 
-ol > li:hover
-{
+ol > li:hover {
 	background-color: blue;
 	color: lightblue;
 }
 
-ol > li:hover > a
-{
+ol > li:hover > a {
 	background-color: blue;
 	color: lightblue;
 }
 
-ol > li > ul
-{
+ol > li > ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
@@ -93,13 +86,11 @@ ol > li > ul
 	display: none;
 }
 
-ol > li:hover > ul
-{
+ol > li:hover > ul{
 	display: block;
 }
 
-ol > li > ul > li
-{
+ol > li > ul > li{
 	background-color:#cf6969;
 	position: relative;
 	z-index: 100;
@@ -107,42 +98,40 @@ ol > li > ul > li
 	clear: boath;
 }
 
-ol > li > ul > li:hover
-{
+ol > li > ul > li:hover {
 	background-color: blue;
 }
 
-ol > li > ul > li:hover > a
-{
+ol > li > ul > li:hover > a {
 	color: darkblue;
 }
 
 .grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
-  }
+	  display: grid;
+	  grid-template-columns: auto auto auto auto auto;
+}
   
 .grid-container > div {
-  background-color: white;
-  text-align: center;
-  padding: 20px 0px;
-  font-size: 20px;
-  border-collapse: collapse;
+	  background-color: white;
+	  text-align: center;
+	  padding: 20px 0px;
+	  font-size: 20px;
+	  border-collapse: collapse;
 }
 
 .grid2-container {
-  position: relative;
-  display: grid;
-  grid-template-columns: 20px, 20px, auto;
-  padding: 5 px;
-  float: left;
-  background-color: white;
+	  position: relative;
+	  display: grid;
+	  grid-template-columns: 20px, 20px, auto;
+	  padding: 5 px;
+	  float: left;
+	  background-color: white;
 }
   
 .grid2-container > div {
-  position: relative;
-  background-color: white;
-  text-align: center;
+	  position: relative;
+	  background-color: white;
+	  text-align: center;
 }
 
 #harmonogram {
@@ -172,77 +161,77 @@ footer { /* Stopka rozjeżdza się. Do poprawy */
 }
 
 #formularz {
-float: left;
-margin: 0 auto auto 5%;
-  width: 35%;
-  position: relative;
+	float: left;
+	margin: 0 auto auto 5%;
+	width: 35%;
+	position: relative;
 }
 
-.tyt{
-text-align: center;
-font-weight: bold;
+.tyt {
+	text-align: center;
+	font-weight: bold;
 }
 
 #kontakt {
   /* Ramka formularza */
-  margin-top: 5%;
-  padding: 1em;
-  border: 1px solid silver;
-  border-radius: 0.5em;
-  position: relative;
+	  margin-top: 5%;
+	  padding: 1em;
+	  border: 1px solid silver;
+	  border-radius: 0.5em;
+	  position: relative;
 }
 
 
 
 #kontakt label {
-  width: 20%;
-  text-align: right;
+	  width: 20%;
+	  text-align: right;
 }
 
 #kontakt textarea {
-  font: 1em sans-serif;
+	  font: 1em sans-serif;
 
-  width: 99%;
-  box-sizing: border-box;
+	  width: 99%;
+	  box-sizing: border-box;
 
-  border: 1px solid #999;
+	  border: 1px solid #999;
 }
 
 #kontakt input:focus,
 textarea:focus {
-  border-color: silver;
+  	 border-color: silver;
 }
 
 #kontakt textarea {
-  vertical-align: top;
-  height:15em;
+	 vertical-align: top;
+	 height:15em;
 }
 
 #kontakt button {
-  margin-left: 0.5em;
-   margin-top: 5%;
-   background: silver;  
- color: black; 
- font-size: 13pt;  
- display: inline-block;  
- line-height: 1em;  
- padding: 0.7em;  
- margin: 0.5em;  
- cursor: pointer;  
- transition: all 0.3s;
- float: right;
+	 margin-left: 0.5em;
+	 margin-top: 5%;
+	 background: silver;  
+	 color: black; 
+	 font-size: 13pt;  
+	 display: inline-block;  
+	 line-height: 1em;  
+	 padding: 0.7em;  
+	 margin: 0.5em;  
+	 cursor: pointer;  
+	 transition: all 0.3s;
+	 float: right;
 }
 
 #zgoda {
-float: left;
+	float: left;
 }
 
 #dane {
-float: left;
-position: relative;
-margin-left: 10%;
-margin-top: 10%;
-font-size: large;
+	float: left;
+	position: relative;
+	margin-left: 10%;
+	margin-top: 10%;
+	font-size: large;
 }
 
 footer { 
