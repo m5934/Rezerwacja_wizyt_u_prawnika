@@ -245,7 +245,7 @@ margin-top: 10%;
 font-size: large;
 }
 
-footer { /* Stopka rozjeżdza się. Do poprawy */ 
+footer { 
 	position: absolute;
 	bottom: 0;
 	height: 10%;
