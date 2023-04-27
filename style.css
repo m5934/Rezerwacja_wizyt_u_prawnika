@@ -177,10 +177,11 @@ kontakt label:first-child {
   width: 20%;
   text-align: right;
 }
+
 #kontakt textarea {
   font: 1em sans-serif;
 
-  width: 300px;
+  width: 99%;
   box-sizing: border-box;
 
   border: 1px solid #999;
