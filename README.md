@@ -1,9 +1,21 @@
-# System_rezerwacji
+# System rezerwacji
 
-Aplikacja internetowa, która jest systemem rezerwacji.
+--------------Opis-------------------------------------------
 
-Docelowo aplikacja do rezerwacji ma umożliwić
-zapisywanie wizyt w bazie danie.
+Aplikacja internetowa, służąca rezerwacji wizyt u prawnika.
+Jest zarazem stroną fałszywej kancelarii prawnej.
 
-Formularz kontaktowy ma umozliwić wysłanie emaila
+--------------Narzędzia-------------------------------------
+
+Dotychczas do implementacji używa się HTML 5, CSS 3.
+
+---------------Funkcje--------------------------------------
+
+Obecnie formularz zapisuje wizyty w kalendarzu Google.
+Planuje się, że one będą zapisywane w bazie danych PostgreSQL.
+
+Formularz kontaktowy będzie wysłać email
 na testowy adres e-mail.
+-----------------------------------------------------------
+Autorem aplikacji jest Michał Wojciechowski.
+Aplikacja służy tylko do wglądu.
