@@ -31,24 +31,28 @@
 			</div>
 	<p id="tyt_kontakt">Kontakt</p>
 	</hr>
-
-	<form id="kontakt" action="" method="POST" >
-	    <div>
-		    <label for="email">E-mail:</label>
+	<div id="formularz">
+		<div id="tyt_form">
+		Formularz kontaktowy
+		</div>
+		<form id="kontakt" action="" method="POST" >
+		    <div>
+			    <label for="email">E-mail:</label>
+			    <p></p>
+			    <input type="email" name="email" id="email" required />
+		    </div>
 		    <p></p>
-		    <input type="email" name="email" id="email" required />
-	    </div>
-	    <p></p>
-	    <div>
-	    	<label for="msg">Wiadomość:</label>
-	    	<p></p>
-	    	<textarea id="msg" name="user_message"></textarea>
-	    </div>
-	     <input type="checkbox" id="zgoda" value="yes" required></input>
-	     <label id="klauzula_RODO">Zgadzam się na wykorzystywanie moich danych w celu kontaktu ze mną</label>
-	     <div id="przerwa"></div>
-	    <button>Wyślij</button>
-	</form>
+		    <div>
+		    	<label for="msg">Wiadomość:</label>
+		    	<p></p>
+		    	<textarea id="msg" name="user_message"></textarea>
+		    </div>
+		     <input type="checkbox" id="zgoda" value="yes" required></input>
+		     <label id="klauzula_RODO">Zgadzam się na wykorzystywanie moich danych w celu kontaktu ze mną</label>
+		     <div id="przerwa"></div>
+		    <button>Wyślij</button>
+		</form>
+	</div>
 	 
 
 	 <div id="przerwa"></div>
