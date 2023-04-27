@@ -157,7 +157,7 @@ ol > li > ul > li:hover > a
 
 #kontakt {
   margin: 0 auto;
-  width: 400px;
+  width: 50%;
   /* Ramka formularza */
   padding: 1em;
   border: 1px solid silver;
