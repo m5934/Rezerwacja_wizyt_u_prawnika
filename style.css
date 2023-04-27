@@ -156,22 +156,27 @@ ol > li > ul > li:hover > a
 }
 
 #kontakt {
-  margin: 0 auto;
-  width: 50%;
+  margin: 0 auto auto 5%;
+  width: 35%;
   /* Ramka formularza */
   padding: 1em;
   border: 1px solid silver;
   border-radius: 0.5em;
   position: relative;
+  float: left;
 }
 
 
 
-#kontakt label {
-  width: 90px;
+#kontakt label:first-child {
+  width: 20%;
   text-align: right;
 }
 
+kontakt label:first-child {
+  width: 20%;
+  text-align: right;
+}
 #kontakt textarea {
   font: 1em sans-serif;
 
