@@ -16,6 +16,7 @@ Planuje się, że one będą zapisywane w bazie danych PostgreSQL.
 
 Formularz kontaktowy będzie wysłać email
 na testowy adres e-mail.
+
 -----------------------------------------------------------
 Autorem aplikacji jest Michał Wojciechowski.
 Aplikacja służy tylko do wglądu.
