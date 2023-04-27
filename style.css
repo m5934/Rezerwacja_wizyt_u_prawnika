@@ -155,15 +155,24 @@ ol > li > ul > li:hover > a
 	text-align: center;
 }
 
-#kontakt {
-  margin: 0 auto auto 5%;
+#formularz {
+float: left;
+margin: 0 auto auto 5%;
   width: 35%;
+  position: relative;
+}
+
+#tyt_form{
+text-align: center;
+}
+
+#kontakt {
   /* Ramka formularza */
+  margin-top: 5%;
   padding: 1em;
   border: 1px solid silver;
   border-radius: 0.5em;
   position: relative;
-  float: left;
 }
 
 
