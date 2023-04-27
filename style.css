@@ -168,8 +168,6 @@ ol > li > ul > li:hover > a
 
 
 #kontakt label {
-  /* Rozmiar pola i jego wygląd */
-  display: inline-block;
   width: 90px;
   text-align: right;
 }
