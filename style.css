@@ -152,6 +152,12 @@ footer {
 	color: white;
 }
 
+.tyt {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
 /* Style do strony kontaktowej */
 
 #tyt_kontakt {
@@ -164,12 +170,6 @@ footer {
 	margin: 0 auto auto 5%;
 	width: 35%;
 	position: relative;
-}
-
-.tyt {
-	text-align: center;
-	font-weight: bold;
-	font-size: 20px;
 }
 
 #tyt_k {
