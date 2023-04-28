@@ -171,6 +171,14 @@ footer { /* Stopka rozjeżdza się. Do poprawy */
 	font-weight: bold;
 }
 
+.tyt:first-child{
+	font-size: 20px;
+}
+
+#tyt_k {
+	font-size: 20px;
+}
+
 #kontakt {
   /* Ramka formularza */
 	  margin-top: 5%;
