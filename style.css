@@ -169,9 +169,6 @@ footer { /* Stopka rozjeżdza się. Do poprawy */
 .tyt {
 	text-align: center;
 	font-weight: bold;
-}
-
-.tyt:first-child{
 	font-size: 20px;
 }
 
