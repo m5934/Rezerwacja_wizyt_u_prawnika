@@ -7,7 +7,7 @@ Jest zarazem stroną fałszywej kancelarii prawnej.
 
 --------------Narzędzia-------------------------------------
 
-Dotychczas do implementacji używa się HTML 5, CSS 3.
+Dotychczas do implementacji używa się HTML, CSS, JavaScipt.
 
 ---------------Funkcje--------------------------------------
 
