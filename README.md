@@ -2,12 +2,13 @@
 
 --------------Opis-------------------------------------------
 
-Aplikacja internetowa, służąca rezerwacji wizyt u prawnika.
-Jest zarazem stroną fałszywej kancelarii prawnej.
+Aplikacja internetowa do rezerwacji wizyt u prawnika.
+Jest to demonstracyjnca wersja strony kancelarri prawnej.
+Strona służy tylko do wglądu.
 
 --------------Narzędzia-------------------------------------
 
-Dotychczas do implementacji używa się HTML 5, CSS 3.
+Dotychczas do implementacji został użyty HTML, CSS, JavaScipt.
 
 ---------------Funkcje--------------------------------------
 
@@ -19,4 +20,3 @@ na testowy adres e-mail.
 
 -----------------------------------------------------------
 Autorem aplikacji jest Michał Wojciechowski.
-Aplikacja służy tylko do wglądu.

@@ -23,6 +23,12 @@ body {
 	 background-color: #155287;
 }
 
+.tytuł img {
+	float:center;
+	height:50 px;
+	width: 50px
+}
+
 h1 {
 	 text-align: center;
 	 width: 100%;
