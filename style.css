@@ -168,7 +168,7 @@ footer {
 #formularz {
 	float: left;
 	margin: 0 auto auto 5%;
-	width: 35%;
+	width: 45%;
 	position: relative;
 }
 
@@ -233,7 +233,7 @@ textarea:focus {
 #dane {
 	float: left;
 	position: relative;
-	margin-left: 10%;
+	margin-left: 20%;
 	margin-top: 10%;
 	font-size: large;
 }
