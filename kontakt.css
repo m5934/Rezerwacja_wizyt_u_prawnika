@@ -1,0 +1,77 @@
+#tyt_kontakt {
+	float:center;
+	text-align: center;
+}
+
+#formularz {
+	float: left;
+	margin: 0 auto auto 5%;
+	width: 45%;
+	position: relative;
+}
+
+#tyt_k {
+	font-size: 20px;
+}
+
+#kontakt {
+  /* Ramka formularza */
+	  margin-top: 5%;
+	  padding: 1em;
+	  border: 1px solid silver;
+	  border-radius: 0.5em;
+	  position: relative;
+}
+
+
+
+#kontakt label {
+	  width: 20%;
+	  text-align: right;
+}
+
+#kontakt textarea {
+	  font: 1em sans-serif;
+
+	  width: 99%;
+	  box-sizing: border-box;
+
+	  border: 1px solid #999;
+}
+
+#kontakt input:focus,
+textarea:focus {
+  	 border-color: silver;
+}
+
+#kontakt textarea {
+	 vertical-align: top;
+	 height:15em;
+}
+
+#kontakt button {
+	 margin-left: 0.5em;
+	 margin-top: 5%;
+	 background: silver;  
+	 color: black; 
+	 font-size: 13pt;  
+	 display: inline-block;  
+	 line-height: 1em;  
+	 padding: 0.7em;  
+	 margin: 0.5em;  
+	 cursor: pointer;  
+	 transition: all 0.3s;
+	 float: right;
+}
+
+#zgoda {
+	float: left;
+}
+
+#dane {
+	float: left;
+	position: relative;
+	margin-left: 20%;
+	margin-top: 10%;
+	font-size: large;
+}
