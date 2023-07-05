@@ -1,8 +1,7 @@
 # System rezerwacji
 
 
-Aplikacja internetowa do rezerwacji wizyt u prawnika.
-Jest to demonstracyjna wersja strony kancelarii prawnej.
+Demonstracyjna wersja strony do rezerwacji wizyt u prawnika.
 Strona służy tylko do wglądu.
 
 
